@@ -16,7 +16,7 @@ export default function Dice() {
       const allSame= numbersArray.every(die=>die.value === firstElement)
       if(allHeld && allSame)
         setTenzies(true)
-      if(rolls=== 8)
+      if(rolls=== 10)
         setisRollsUp(true)
 
   },[numbersArray])
